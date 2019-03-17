@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: #00CED1;
+    margin-top: 25vh;
+}
+
+h1 {
+    font-family: Gloria Hallelujah;
+    font-size: 70px;
+    margin: 0.2em;
+    color: white;
+}
+
+h3 {
+  font-family: Kalam;
+  font size: 38px;
+  color: white;
+}
+
+a {
+  color:white;
+}
