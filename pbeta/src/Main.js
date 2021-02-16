@@ -8,6 +8,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import Thumbnail from "./Thumbnail.js";
 import './index.css'
 
 class Main extends Component {
