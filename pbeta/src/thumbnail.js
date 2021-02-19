@@ -7,7 +7,7 @@ function Thumbnail(props) {
     <div className="project">
       <Link to={props.link}>
         <div className="content">
-          <img src={props.image} alt="Visual"/>
+          <img style={{maxHeight: 200, maxWidth: 200}} src={props.image} alt="Visual"/>
         </div>
         <div className="project-title">{props.title}</div>
         <div className="project-category">{props.category}</div>

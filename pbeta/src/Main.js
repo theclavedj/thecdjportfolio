@@ -2,26 +2,25 @@ import React, { Component } from "react";
 import {
   Route,
   NavLink,
-  HashRouter
+  BrowserRouter
 } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Contact from "./Contact";
-import Thumbnail from "./Thumbnail.js";
-import './index.css'
+import './index.css';
 
 class Main extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div>
           <h1>Portfolio v1.0</h1>
           <ul className="header">
           <li><NavLink exact to="/">Home</NavLink></li>
           <li><NavLink to="/experience">Experience</NavLink></li>
           <li><NavLink to="/projects">Projects</NavLink></li>
-          <li><NavLink to="/contact">Contacts</NavLink></li>
+          <li><NavLink to="/contact">Contact me</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
@@ -30,7 +29,7 @@ class Main extends Component {
             <Route path="/contact" component={Contact}/>
           </div>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
