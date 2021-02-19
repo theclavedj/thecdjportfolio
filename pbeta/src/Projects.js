@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 import Thumbnail from './Thumbnail.js';
 
+const TextPers = {
+  fontWeight: "bold",
+  fontSize: "14px",
+  Align: "Center",
+}
+
 class Projects extends Component {
   render() {
     return (
       <div>
         <h2>PROJECTS and SKILLS</h2>
+        <div style={{width: "300px", display: "flex", align: "center"}}>
         <Thumbnail
         link="Project01"
         image="https://raw.githubusercontent.com/theclavedj/portfolio-Site/master/images/thumbnail-tendaf303.jpg"
@@ -30,6 +37,7 @@ class Projects extends Component {
         title="Rendered skin over in-game screenshot"
         category="Photoshop, 3DSMax"
         />
+        </div>
       </div>
     );
   }
