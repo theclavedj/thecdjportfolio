@@ -11,8 +11,8 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h2>PROJECTS and SKILLS</h2>
-        <div style={{width: "300px", display: "flex", align: "center"}}>
+        <h2 style={{textAlign: "center"}}>PROJECTS and SKILLS</h2>
+        <div style={{width: "300px", display: "flex", align: "center", textAlign: "center", fontFamily: "Josefin Sans"}}>
         <Thumbnail
         link="Project01"
         image="https://raw.githubusercontent.com/theclavedj/portfolio-Site/master/images/thumbnail-tendaf303.jpg"

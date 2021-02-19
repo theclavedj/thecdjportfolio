@@ -9,6 +9,10 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import './index.css';
+import FBIcon from './fbicon.png';
+import GHIcon from './GHicon.png';
+import Micon from './Micon.png';
+import YTicon from './YTicon.png';
 
 class Main extends Component {
   render() {
@@ -27,6 +31,20 @@ class Main extends Component {
             <Route path="/experience" component={Experience}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/contact" component={Contact}/>
+          </div>
+          <div className="Social" style={{align: "center", textAlign: "center", margin: "10px"}}>
+              <a href="https://www.facebook.com/MiguelAngel87" target="_blank">
+              <img src={FBIcon} img style={{maxHeight: 80, maxWidth: 80, margin: "5px"}} alt="Facebook"/>
+              </a>
+              <a href="https://www.github.com/theclavedj" target="_blank">
+              <img src={GHIcon} img style={{maxHeight: 80, maxWidth: 80, margin: "5px"}} alt="Github"/>
+              </a>
+              <a href="https://www.youtube.com/channel/UCygMYqAEgKNKh1FKZUDZK5Q" target="_blank">
+              <img src={YTicon} img style={{maxHeight: 80, maxWidth: 80, margin: "5px"}} alt="Youtube"/>
+              </a>
+              <a href="mailto: m-a-jimenez@hotmail.com">
+              <img src={Micon} img style={{maxHeight: 80, maxWidth: 80, margin: "5px"}} alt="Email me"/>
+              </a>
           </div>
         </div>
       </BrowserRouter>
