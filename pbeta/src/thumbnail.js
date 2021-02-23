@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Main.js';
+import dentalcard from './dentalcard.png';
 
 function Thumbnail(props) {
   return (
